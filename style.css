@@ -5,3 +5,10 @@
 .product-card .card:hover {
     transform: translateY(-8px);
 }
+.Zevora{
+    transition: 0.3s;
+}
+
+.Zevora:hover{
+    transform: scale(1.05);
+}

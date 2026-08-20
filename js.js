@@ -67,3 +67,16 @@ searchInput.addEventListener("keyup", function () {
         }
     }
 });
+
+// contact
+let contactForm = document.getElementById("contactForm");
+if (contactForm) {
+    contactForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+        let name = document.getElementById("contactName").value;
+        let toastElement = document.getElementById("contactToast");
+        let toast = new bootstrap.Toast(toastElement);
+        toast.show();
+    });
+
+}
